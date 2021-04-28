@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/PageTable.dir/os.c.o CMakeFiles/PageTable.dir/pt.c.o  -o PageTable.exe -Wl,--out-implib,libPageTable.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

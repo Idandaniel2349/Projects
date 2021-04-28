@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/Users/idan/CLionProjects/PageTable/os.c
+assert.h
+-
+time.h
+-
+execinfo.h
+-
+stdlib.h
+-
+stdio.h
+-
+err.h
+-
+sys/mman.h
+-
+os.h
+/cygdrive/d/Users/idan/CLionProjects/PageTable/os.h
+math.h
+/cygdrive/d/Users/idan/CLionProjects/PageTable/math.h
+
+/cygdrive/d/Users/idan/CLionProjects/PageTable/os.h
+stdint.h
+-
+
+/cygdrive/d/Users/idan/CLionProjects/PageTable/pt.c
+os.h
+/cygdrive/d/Users/idan/CLionProjects/PageTable/os.h
+
