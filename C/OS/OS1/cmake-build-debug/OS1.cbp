@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OS1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="os">
+				<Option output="/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/os.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 os"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="os/fast">
+				<Option output="/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/os.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 os/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OS1">
+				<Option output="/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/libOS1.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 OS1"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OS1/fast">
+				<Option output="/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/libOS1.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 OS1/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/d/Users/idan/CLionProjects/OS1/library.c">
+			<Option target="OS1"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Users/idan/CLionProjects/OS1/library.h">
+			<Option target="OS1"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Users/idan/CLionProjects/OS1/os.c">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Users/idan/CLionProjects/OS1/os.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Users/idan/CLionProjects/OS1/pt.c">
+			<Option target="OS1"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Users/idan/CLionProjects/OS1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
