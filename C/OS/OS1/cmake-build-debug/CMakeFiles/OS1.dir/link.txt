@@ -1,2 +1,0 @@
-/usr/bin/ar.exe qc libOS1.a  CMakeFiles/OS1.dir/library.c.o CMakeFiles/OS1.dir/pt.c.o
-/usr/bin/ranlib.exe libOS1.a

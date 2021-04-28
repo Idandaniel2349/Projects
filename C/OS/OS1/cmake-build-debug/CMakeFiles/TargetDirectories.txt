@@ -1,4 +1,0 @@
-/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/CMakeFiles/os.dir
-/cygdrive/d/Users/idan/CLionProjects/OS1/cmake-build-debug/CMakeFiles/OS1.dir

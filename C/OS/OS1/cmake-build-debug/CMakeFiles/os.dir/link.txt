@@ -1,1 +1,0 @@
-/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/os.dir/os.c.o  -o os.exe -Wl,--out-implib,libos.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
