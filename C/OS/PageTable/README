@@ -1,1 +1,2 @@
 A project simulating a PageTable in linux
+Run with "gcc -O3 -Wall -std=c11 os.c pt.c" in a directory containing the 3 files
