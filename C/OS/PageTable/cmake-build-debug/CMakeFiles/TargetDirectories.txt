@@ -1,3 +1,0 @@
-/cygdrive/d/Users/idan/CLionProjects/PageTable/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/d/Users/idan/CLionProjects/PageTable/cmake-build-debug/CMakeFiles/edit_cache.dir
-/cygdrive/d/Users/idan/CLionProjects/PageTable/cmake-build-debug/CMakeFiles/PageTable.dir
