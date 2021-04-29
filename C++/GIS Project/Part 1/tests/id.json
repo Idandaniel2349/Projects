@@ -1,0 +1,20 @@
+[
+  {
+    "type": "Way",
+    "id": "W2002",
+    "name": "8th St btw. 6th Ave & 5th Ave",
+    "description": ".*",
+    "category_tags": [],
+    "from": {
+      "entity_id": "J1010"
+    },
+    "to": {
+      "entity_id": "J1002"
+    },
+    "curves": [[40.733566, -73.999446]],
+    "speed_limit": 40,
+    "direction": "unidirectional",
+    "toll_road": false,
+    "restricted": ["trucks"]
+  }
+]

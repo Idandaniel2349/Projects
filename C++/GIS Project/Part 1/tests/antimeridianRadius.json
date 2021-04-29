@@ -1,0 +1,37 @@
+[
+  {
+    "type": "POI",
+    "id": "P1001",
+    "name": "name",
+    "description": "To circle the square",
+    "category_tags": [],
+    "geometry": {
+      "type": "Circle",
+      "coordinates": [-179.999500, 0.000000],
+      "radius": 3.2
+    }
+  },
+
+  {
+    "type": "POI",
+    "id": "P1002",
+    "name": "name",
+    "description": "",
+    "category_tags": ["Public"],
+    "geometry": {
+      "type": "Circle",
+
+      "coordinates": [179.997, 0.000000],
+      "radius": 0.635
+    }
+  },
+
+  {
+    "type": "Junction",
+    "id": "J1001",
+    "name": "name",
+    "description": ".*",
+    "category_tags": [],
+    "coordinates": [180, 0.002]
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "type": "Junction",
+    "id": "J1001",
+    "name": "name",
+    "description": ".*",
+    "category_tags": [],
+    "coordinates": [-179.999500, 0.002]
+  },
+
+  {
+    "type": "Junction",
+    "id": "J1002",
+    "name": "name",
+    "description": ".*",
+    "category_tags": [],
+    "coordinates": [-179.999500, -0.002]
+  },
+
+  {
+    "type": "Junction",
+    "id": "J1003",
+    "name": "name",
+    "description": ".*",
+    "category_tags": [],
+    "coordinates": [179.99700, 0.002]
+  },
+
+  {
+    "type": "Junction",
+    "id": "J1004",
+    "name": "name",
+    "description": ".*",
+    "category_tags": [],
+    "coordinates": [179.99700, -0.002]
+  }
+,
+
+  {
+    "type": "Way",
+    "id": "W2001",
+    "name": "5th Ave btw. Washington Square N & 8th St",
+    "description": ".*",
+    "category_tags": [],
+    "from": {
+      "entity_id": "J1002"
+    },
+    "to": {
+      "entity_id": "J1001"
+    },
+    "direction": "unidirectional",
+    "speed_limit": 40,
+    "toll_road": false,
+    "restricted": ["trucks"]
+  }
+,
+
+  {
+    "type": "Way",
+    "id": "W2002",
+    "name": "5th Ave btw. Washington Square N & 8th St",
+    "description": ".*",
+    "category_tags": [],
+    "from": {
+      "entity_id": "J1003"
+    },
+    "to": {
+      "entity_id": "J1004"
+    },
+    "direction": "unidirectional",
+    "speed_limit": 40,
+    "toll_road": false,
+    "restricted": ["trucks"]
+  }
+]

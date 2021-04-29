@@ -1,0 +1,210 @@
+[
+    {
+        "type": "Junction",
+        "id": "J1",
+        "name": "Washington Square Park",
+        "description": ".*",
+        "category_tags": [],
+        "coordinates": [5, 5]
+    },
+
+    {
+        "type": "Junction",
+        "id": "J2",
+        "name": "5th Ave & 8th St",
+        "description": ".*",
+        "category_tags": [],
+        "coordinates": [5, 10]
+    },
+
+    {
+        "type": "Junction",
+        "id": "J3",
+        "name": "6th Ave & 8th St",
+        "description": "6 Ave & Greenwich Ave & 8th St",
+        "category_tags": [],
+        "coordinates": [15,10]
+    },
+
+   {
+        "type": "Junction",
+        "id": "J4",
+        "name": "6th Ave & 8th St",
+        "description": "6 Ave & Greenwich Ave & 8th St",
+        "category_tags": [],
+        "coordinates": [15,5]
+    },
+
+   {
+        "type": "Junction",
+        "id": "J5",
+        "name": "6th Ave & 8th St",
+        "description": "6 Ave & Greenwich Ave & 8th St",
+        "category_tags": [],
+        "coordinates": [3,5]
+    },
+
+  {
+        "type": "Junction",
+        "id": "J6",
+        "name": "6th Ave & 8th St",
+        "description": "6 Ave & Greenwich Ave & 8th St",
+        "category_tags": [],
+        "coordinates": [3,3]
+    },
+   {
+        "type": "Junction",
+        "id": "J7",
+        "name": "6th Ave & 8th St",
+        "description": "6 Ave & Greenwich Ave & 8th St",
+        "category_tags": [],
+        "coordinates": [16,3]
+    },
+   {
+        "type": "Junction",
+        "id": "J8",
+        "name": "6th Ave & 8th St",
+        "description": "6 Ave & Greenwich Ave & 8th St",
+        "category_tags": [],
+        "coordinates": [16,5]
+    },
+
+    {
+        "type": "Way",
+        "id": "W1",
+        "name": "5th Ave btw. Washington Square N & 8th St",
+        "description": ".*",
+        "category_tags": [],
+        "from": {
+            "entity_id": "J1"
+        },
+        "to": {
+            "entity_id": "J2"
+        },
+        "direction": "unidirectional",
+        "speed_limit": 2,
+        "toll_road": false,
+        "restricted": ["trucks"]
+    },
+
+    {
+        "type": "Way",
+        "id": "W2",
+        "name": "8th St btw. 6th Ave & 5th Ave",
+        "description": ".*",
+        "category_tags": [],
+        "from": {
+            "entity_id": "J2"
+        },
+        "to": {
+            "entity_id": "J3"
+        },
+        "speed_limit": 2,
+        "direction": "unidirectional",
+        "toll_road": false,
+        "restricted": ["trucks"]
+    },
+
+ {
+        "type": "Way",
+        "id": "W3",
+        "name": "8th St btw. 6th Ave & 5th Ave",
+        "description": ".*",
+        "category_tags": [],
+        "from": {
+            "entity_id": "J3"
+        },
+        "to": {
+            "entity_id": "J4"
+        },
+        "speed_limit": 2,
+        "direction": "unidirectional",
+        "toll_road": false,
+        "restricted": ["trucks"]
+    },
+ {
+        "type": "Way",
+        "id": "W4",
+        "name": "8th St btw. 6th Ave & 5th Ave",
+        "description": ".*",
+        "category_tags": [],
+        "from": {
+            "entity_id": "J1"
+        },
+        "to": {
+            "entity_id": "J5"
+        },
+        "speed_limit": 2,
+        "direction": "unidirectional",
+        "toll_road": false,
+        "restricted": ["trucks"]
+    },
+{
+        "type": "Way",
+        "id": "W5",
+        "name": "8th St btw. 6th Ave & 5th Ave",
+        "description": ".*",
+        "category_tags": [],
+        "from": {
+            "entity_id": "J5"
+        },
+        "to": {
+            "entity_id": "J6"
+        },
+        "speed_limit": 2,
+        "direction": "unidirectional",
+        "toll_road": false,
+        "restricted": ["trucks"]
+    },
+{
+        "type": "Way",
+        "id": "W6",
+        "name": "8th St btw. 6th Ave & 5th Ave",
+        "description": ".*",
+        "category_tags": [],
+        "from": {
+            "entity_id": "J6"
+        },
+        "to": {
+            "entity_id": "J7"
+        },
+        "speed_limit": 2,
+        "direction": "unidirectional",
+        "toll_road": false,
+        "restricted": ["trucks"]
+    },
+{
+        "type": "Way",
+        "id": "W7",
+        "name": "8th St btw. 6th Ave & 5th Ave",
+        "description": ".*",
+        "category_tags": [],
+        "from": {
+            "entity_id": "J7"
+        },
+        "to": {
+            "entity_id": "J8"
+        },
+        "speed_limit": 2,
+        "direction": "unidirectional",
+        "toll_road": false,
+        "restricted": ["trucks"]
+    },
+{
+        "type": "Way",
+        "id": "W8",
+        "name": "8th St btw. 6th Ave & 5th Ave",
+        "description": ".*",
+        "category_tags": [],
+        "from": {
+            "entity_id": "J8"
+        },
+        "to": {
+            "entity_id": "J4"
+        },
+        "speed_limit": 2,
+        "direction": "unidirectional",
+        "toll_road": false,
+        "restricted": ["trucks"]
+    }
+]
