@@ -1,0 +1,226 @@
+[
+  {
+    "type": "Junction",
+    "id": "J10012",
+    "name": "5th Ave & Washington Square N",
+    "description": ".*",
+    "category_tags": [],
+    "coordinates": [40.731430, -73.996952]
+  },
+
+  {
+    "type": "Junction",
+    "id": "J10023",
+    "name": "5th Ave & 8th St",
+    "description": ".*",
+    "category_tags": [],
+    "coordinates": [40.7322576, -73.996411]
+  },
+
+  {
+    "type": "Junction",
+    "id": "J1001",
+    "name": "5th Ave & Washington Square N",
+    "description": ".*",
+    "category_tags": [],
+    "coordinates": [40.731437, -73.996967]
+  },
+
+  {
+    "type": "Junction",
+    "id": "J1002",
+    "name": "5th Ave & 8th St",
+    "description": ".*",
+    "category_tags": [],
+    "coordinates": [40.732254, -73.996394]
+  },
+
+  {
+    "type": "Junction",
+    "id": "J1010",
+    "name": "6th Ave & 8th St",
+    "description": "6 Ave & Greenwich Ave & 8th St",
+    "category_tags": [],
+    "coordinates": [40.732254, -73.996394]
+  },
+  {
+    "type": "Junction",
+    "id": "J12001",
+    "name": "5th Ave & Washington Square N",
+    "description": ".*",
+    "category_tags": [],
+    "coordinates": [40.731487, -73.996767]
+  },
+
+  {
+    "type": "Junction",
+    "id": "J14002",
+    "name": "5th Ave & 8th St",
+    "description": ".*",
+    "category_tags": [],
+    "coordinates": [40.732300, -73.996399]
+  },
+
+  {
+    "type": "Junction",
+    "id": "J1200199",
+    "name": "5th Ave & Washington Square N",
+    "description": ".*",
+    "category_tags": [],
+    "coordinates": [40.731502, -73.996751]
+  },
+
+  {
+    "type": "Junction",
+    "id": "J1400295",
+    "name": "5th Ave & 8th St",
+    "description": ".*",
+    "category_tags": [],
+    "coordinates": [40.732321, -73.996377]
+  },
+
+  {
+    "type": "Way",
+    "id": "W20018",
+    "name": "5th Ave btw. Washington Square N & 8th St",
+    "description": ".*",
+    "category_tags": [],
+    "from": {
+      "entity_id": "J1002"
+    },
+    "to": {
+      "entity_id": "J1001"
+    },
+    "direction": "unidirectional",
+    "speed_limit": 40,
+    "toll_road": false,
+    "restricted": ["trucks"]
+  },
+
+  {
+    "type": "Way",
+    "id": "W20027",
+    "name": "8th St btw. 6th Ave & 5th Ave",
+    "description": ".*",
+    "category_tags": [],
+    "from": {
+      "entity_id": "J1010"
+    },
+    "to": {
+      "entity_id": "J1002"
+    },
+    "curves": [[40.733566, -73.999446]],
+    "speed_limit": 40,
+    "direction": "unidirectional",
+    "toll_road": false,
+    "restricted": ["trucks"]
+  },
+  {
+    "type": "Way",
+    "id": "W20016",
+    "name": "5th Ave btw. Washington Square N & 8th St",
+    "description": ".*",
+    "category_tags": [],
+    "from": {
+      "entity_id": "J1400295"
+    },
+    "to": {
+      "entity_id": "J14002"
+    },
+    "direction": "unidirectional",
+    "speed_limit": 40,
+    "toll_road": false,
+    "restricted": ["trucks"]
+  },
+
+  {
+    "type": "Way",
+    "id": "W20025",
+    "name": "8th St btw. 6th Ave & 5th Ave",
+    "description": ".*",
+    "category_tags": [],
+    "from": {
+      "entity_id": "J10023"
+    },
+    "to": {
+      "entity_id": "J1002"
+    },
+    "curves": [[40.733566, -73.999446], [40.733580, -73.999546]],
+    "speed_limit": 40,
+    "direction": "unidirectional",
+    "toll_road": false,
+    "restricted": ["trucks"]
+  },
+  {
+    "type": "Way",
+    "id": "W20014",
+    "name": "5th Ave btw. Washington Square N & 8th St",
+    "description": ".*",
+    "category_tags": [],
+    "from": {
+      "entity_id": "J1200199"
+    },
+    "to": {
+      "entity_id": "J10012"
+    },
+    "direction": "unidirectional",
+    "speed_limit": 40,
+    "toll_road": false,
+    "restricted": ["trucks"]
+  },
+
+  {
+    "type": "Way",
+    "id": "W20023",
+    "name": "8th St btw. 6th Ave & 5th Ave",
+    "description": ".*",
+    "category_tags": [],
+    "from": {
+      "entity_id": "J1010"
+    },
+    "to": {
+      "entity_id": "J1002"
+    },
+    "curves": [[40.733566, -73.999446], [40.738566, -73.999446] ,[40.733566, -73.999410]],
+    "speed_limit": 40,
+    "direction": "unidirectional",
+    "toll_road": false,
+    "restricted": ["trucks"]
+  },
+  {
+    "type": "Way",
+    "id": "W20012",
+    "name": "5th Ave btw. Washington Square N & 8th St",
+    "description": ".*",
+    "category_tags": [],
+    "from": {
+      "entity_id": "J1002"
+    },
+    "to": {
+      "entity_id": "J14002"
+    },
+    "direction": "unidirectional",
+    "speed_limit": 40,
+    "toll_road": false,
+    "restricted": ["trucks"]
+  },
+
+  {
+    "type": "Way",
+    "id": "W20021",
+    "name": "8th St btw. 6th Ave & 5th Ave",
+    "description": ".*",
+    "category_tags": [],
+    "from": {
+      "entity_id": "J1010"
+    },
+    "to": {
+      "entity_id": "J1002"
+    },
+    "curves": [[40.733593, -73.999467]],
+    "speed_limit": 40,
+    "direction": "unidirectional",
+    "toll_road": false,
+    "restricted": ["trucks"]
+  }
+]

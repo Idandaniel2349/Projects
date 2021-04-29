@@ -1,0 +1,115 @@
+[
+    {
+        "type": "POI",
+        "id": "P1",
+        "name": "Washington Square Park",
+        "description": "To circle the square",
+        "geometry": {
+            "type": "Circle",
+            "coordinates": [
+                1.0,
+                1.0
+            ],
+            "radius": 3.0
+        }
+    },
+    {
+        "type": "POI",
+        "id": "P2",
+        "name": "name",
+        "description": "",
+        "category_tags": [
+            "Public"
+        ],
+        "geometry": {
+            "type": "Circle",
+            "coordinates": [
+                1.8,
+                1.8
+            ],
+            "radius": 0.2
+        }
+    },
+    {
+        "type": "POI",
+        "id": "P3",
+        "name": "Washington Square Park",
+        "description": "To circle the square",
+        "geometry": {
+            "type": "Circle",
+            "coordinates": [
+                40.785255,
+                -89.45785
+            ],
+            "radius": 100.0
+        }
+    },
+    {
+        "type": "Junction",
+        "id": "J3",
+        "name": "6th Ave & 8th St",
+        "description": "6 Ave & Greenwich Ave & 8th St",
+        "coordinates": [
+            0.99,
+            0.5
+        ]
+    },
+    {
+        "type": "POI",
+        "id": "P4",
+        "name": "Washington Square Park",
+        "description": "To circle the square",
+        "geometry": {
+            "type": "Circle",
+            "coordinates": [
+                40.731051,
+                -73.999611
+            ],
+            "radius": 3.234
+        }
+    },
+    {
+        "type": "Junction",
+        "id": "J1",
+        "name": "Washington Square Park",
+        "description": ".*",
+        "coordinates": [
+            0.99,
+            0.99
+        ]
+    },
+    {
+        "type": "Junction",
+        "id": "J2",
+        "name": "5th Ave & 8th St",
+        "description": ".*",
+        "coordinates": [
+            1.05,
+            1.05
+        ]
+    },
+    {
+        "type": "Junction",
+        "id": "J4",
+        "name": "6th Ave & 8th St",
+        "description": "6 Ave & Greenwich Ave & 8th St",
+        "coordinates": [
+            1.05,
+            2.05
+        ]
+    },
+    {
+        "type": "POI",
+        "id": "P5",
+        "name": "Elmer Holmes Bobst Library",
+        "description": "The Elmer Holmes Bobst Library, often referred to as simply Bobst Library or Bobst, is the main library at New York University in Manhattan, New York City",
+        "geometry": {
+            "type": "Circle",
+            "coordinates": [
+                40.729824,
+                -73.997302
+            ],
+            "radius": 1.234
+        }
+    }
+]
