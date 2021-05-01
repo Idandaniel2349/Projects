@@ -4,7 +4,7 @@ SOURCE_FILES := $(notdir $(shell find . -name '*.cpp'))
 OBJS_FILES := $(SOURCE_FILES:%.cpp=%.o)
 BIN_DIR = bin
 OBJS := $(addprefix $(BIN_DIR)/, $(OBJS_FILES))
-SHARED_OBJ = Navigation.so
+SHARED_OBJ = Navigation_316497817.so
 OUTPUT_DIR := ../../OUTPUT/Navigation
 OUTPUT_SHARED_OBJ := $(OUTPUT_DIR)/$(SHARED_OBJ)
 
@@ -24,7 +24,7 @@ $(OUTPUT_SHARED_OBJ): $(OBJS)
 
 # Make sure to have all your dependencies for each .o file creation rule
 
-$(BIN_DIR)/Navigation.o: Navigation.cpp Navigation7.h \
+$(BIN_DIR)/Navigation_316497817.o: Navigation_316497817.cpp Navigation_316497817.h \
  ../Common/NavigationGIS.h ../Common/AbstractGIS.h \
  ../Common/GISNamedTypes.h ../Common/NamedType.h ../Common/Double.h \
  ../Common/Restrictions.h ../Common/AbstractWay.h Routes.h Route.h \
