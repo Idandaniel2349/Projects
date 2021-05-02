@@ -1,0 +1,20 @@
+Instructions
+
+The game starts by asking the user to enter the number of cells to fill,
+enter a valid number between 0 to 80 ( this is the number of filled cells
+at the start of the game).
+
+After the board is Generated you can enter the commands:
+
+set X Y Z: Sets the value Z in cell <X,Y> (X is the column, Y is the row).
+
+hint X Y: Give a hint to the user by showing a possible legal value for a single cell.
+
+validate:Validates that the current state of the board is solvable.
+
+restart: Restart the game by starting over with the initialization procedure (followed
+by solving a new puzzle).
+
+exit: The program prints "Exiting…\n", frees all memory resources and exits.
+ 
+Enjoy
