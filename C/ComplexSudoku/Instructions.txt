@@ -1,0 +1,61 @@
+Instructions
+
+The possible commands are:
+
+1. solve X:Starts a puzzle in Solve mode, loaded from a file with the name "X", where X
+includes a full or relative path to the file.
+
+2. edit [X]:Starts a puzzle in Edit mode, loaded from a file with the name "X", where X
+includes a full or relative path to the file.
+The parameter X is optional. If no parameter is supplied, the program should
+enter Edit mode with an empty 9x9 board.
+
+3. mark_errors X:Sets the "mark errors" setting to X, where X is either 0 or 1.
+This command is only available in Solve mode.
+
+4. print_board:Prints the board to the user.
+This command is only available in Edit and Solve modes
+
+5. set X Y Z:Sets the value of cell <X,Y> to Z (X is the column, Y is the row).
+This command is only available in Edit and Solve modes.
+
+6. validate: Validates the current board using ILP, ensuring it is solvable.
+This command is only available in Edit and Solve modes.
+
+7. guess X:Guesses a solution to the current board using LP (not ILP!), with threshold X
+This command is only available in Solve mode.
+
+8. generate X Y:Generates a puzzle by randomly filling X empty cells with legal values,
+running ILP to solve the board, and then clearing all but Y random cells.
+This command is only available in Edit mode
+
+9. undo: Undo a previous move done by the user.
+This command is only available in Edit and Solve modes
+
+10. redo: Redo a move previously undone by the user.
+This command is only available in Edit and Solve modes.
+
+11. save X: Saves the current game board to the specified file, where X includes a full or
+relative path to the file.
+This command is only available in Edit and Solve modes.
+In Edit mode, erroneous boards may not be saved.
+In Edit mode, boards without a solution may not be saved
+
+12. hint X Y: Give a hint to the user by showing the solution of a single cell X,Y.
+This command is only available in Solve mode.
+
+13.  guess_hint X Y:Show a guess to the user for a single cell X,Y.
+This command is only available in Solve mode.
+
+14. num_solutions:Print the number of solutions for the current board.
+This command is only available in Edit and Solve modes.
+
+15. autofill: Automatically fill "obvious" values – cells which contain a single legal value
+This command is only available in Solve mode.
+
+16. reset: Undo all moves, reverting the board to its original loaded state
+This command is only available in Edit and Solve modes.
+
+17. exit:Terminates the program.
+
+Enjoy
