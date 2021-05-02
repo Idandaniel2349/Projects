@@ -13,4 +13,5 @@ Parser: Responsible for parsing the commands from the User
 Game: Responsible for executing the User Commands.
 Solver: Responsible for the Backtracking algorithm for sloving the Board.
 
+To Run, first run the makefile and then the executable created
 Enjoy
