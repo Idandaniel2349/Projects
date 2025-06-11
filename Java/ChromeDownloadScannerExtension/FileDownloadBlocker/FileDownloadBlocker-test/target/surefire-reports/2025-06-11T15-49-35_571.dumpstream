@@ -1,0 +1,5 @@
+# Created at 2025-06-11T15:49:37.369
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Idan\Projects\Programming projects\ChromeDownloadScannerExtension\FileDownloadBlocker\FileDownloadBlocker-test\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
